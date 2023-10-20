@@ -13,7 +13,40 @@
 @span-color: #0099D8;
 @border-radius: 35px;
 
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url("/Gotham-Font-Family/GothamFonts/Gotham-Ultra.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 900;
+}
 
+@font-face {
+    font-family: 'Gotham Black';
+    src: url("/Gotham-Font-Family/GothamFonts/Gotham-Black.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url("/Gotham-Font-Family/GothamFonts/Gotham-Bold.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url("/Gotham-Font-Family/GothamFonts/Gotham-Medium.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url("/Gotham-Font-Family/GothamFonts/Gotham-Book.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 400;
+}
 
 * {
     padding: 0px;
@@ -33,24 +66,26 @@ body {
         width: 100%;
         max-width: 1366px;
         margin: 0 auto;
-    }
 
-    .header {
-        height: 70px;
-        width: @width;
-        background-color: @body-background-color;
-        display: flex;
+        .header {
+            height: 70px;
+            width: @width;
+            background-color: @body-background-color;
+            display: flex;
 
-        .menu-icon {
-            display: none;
-            // padding:25px 10px 10px 30px
+            .menu-icon {
+                display: none;
+                // padding:25px 10px 10px 30px
+            }
+
+            .header-img {
+                padding: 20px 0px 10px 14px;
+                // padding-left: 30px;
+
+            }
         }
 
-        .header-img {
-            padding: 20px 0px 10px 14px;
-            // padding-left: 30px;
 
-        }
     }
 }
 
@@ -75,14 +110,8 @@ body {
                 line-height: 74px;
                 font-family: 'Gotham Black', sans-serif;
                 width: 100%;
-                max-width: 440px;
+                max-width: 431px;
 
-                // @font-face {
-                //     font-family: 'Gotham Black', sans-serif;
-                //     src: url(./Fonts/Gotham\ Black/#FFFFFF) format('truetype');
-                //     font-stretch: normal;
-                //     font-display: swap;
-                // }
             }
 
             .seller-details {
@@ -102,7 +131,7 @@ body {
 
         .shooter-img {
             .shooter-man {
-                height: 370px;
+                // height: 370px;
                 position: absolute;
                 bottom: -36px;
                 left: 28px;
@@ -176,7 +205,7 @@ body {
         font-size: 38px;
         text-align: center;
         line-height: 46px;
-        font-family: 'Gotham', sans-serif;
+        font-family: 'Gotham Black', sans-serif;
     }
 
     .para {
@@ -208,7 +237,7 @@ body {
                 font-size: 46px;
                 line-height: 50px;
                 color: @secondary-font-color;
-                font-family: 'Gotham', sans-serif;
+                font-family: 'Gotham Black', sans-serif;
                 width: 100%;
                 max-width: 547px;
             }
@@ -280,7 +309,7 @@ body {
             font-size: 32px;
             font-weight: bold;
             line-height: 56px;
-            font-family: 'Gotham', sans-serif;
+            font-family: 'Gotham Black', sans-serif;
         }
     }
 
@@ -351,11 +380,13 @@ body {
                 content: "“";
                 font-size: 136px;
                 color: #0099D8;
-                font-family: 'Gotham', sans-serif;
+                font-family: 'Gotham Black', sans-serif;
                 position: absolute;
                 left: -91px;
                 top: -47px;
                 font-weight: bold;
+                font-style: normal;
+
 
 
             }
@@ -364,11 +395,11 @@ body {
                 content: "”";
                 font-size: 136px;
                 color: #0099D8;
-                font-family: 'Gotham', sans-serif;
+                font-family: 'Gotham Black', sans-serif;
                 position: absolute;
                 top: 147px;
                 font-weight: bold;
-
+                font-style: normal;
             }
 
 
@@ -415,6 +446,7 @@ body {
                         max-height: 81px;
                         text-align: center;
                         padding-top: 0px;
+                        font-family: 'Gotham Black', sans-serif;
 
 
                     }
@@ -1007,10 +1039,12 @@ body {
             .shooter-img {
                 .shooter-man {
                     // height: 370px;
-                    position: absolute;
+                    position: absolute; 
                     bottom: 242px;
-                    left: 61px;
+                    left: 77px;
+                    width: @width;
                     /* display: none; */
+                    max-width: 600px;
                 }
 
             }
@@ -1048,8 +1082,8 @@ body {
                     font-size: 18px;
                     font-weight: bold;
                     line-height: 24px;
-                    letter-spacing: 1px;
                     border: none;
+                    letter-spacing: 0px;
                 }
 
             }
@@ -1554,6 +1588,8 @@ body {
                     .featured-blog {
                         .blog-title {
                             font-size: 28px;
+                            max-width: 244px;
+
 
                         }
 

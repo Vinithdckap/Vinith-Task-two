@@ -94,6 +94,36 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4n.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Gotham Ultra';
+  src: url("/Gotham-Font-Family/GothamFonts/Gotham-Ultra.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Gotham Black';
+  src: url("/Gotham-Font-Family/GothamFonts/Gotham-Black.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url("/Gotham-Font-Family/GothamFonts/Gotham-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url("/Gotham-Font-Family/GothamFonts/Gotham-Medium.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Gotham Book';
+  src: url("/Gotham-Font-Family/GothamFonts/Gotham-Book.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -110,16 +140,16 @@ body .inner-main-container {
   max-width: 1366px;
   margin: 0 auto;
 }
-body .header {
+body .inner-main-container .header {
   height: 70px;
   width: 100%;
   background-color: #ffffff;
   display: flex;
 }
-body .header .menu-icon {
+body .inner-main-container .header .menu-icon {
   display: none;
 }
-body .header .header-img {
+body .inner-main-container .header .header-img {
   padding: 20px 0px 10px 14px;
 }
 .details .inner-details {
@@ -139,7 +169,7 @@ body .header .header-img {
   line-height: 74px;
   font-family: 'Gotham Black', sans-serif;
   width: 100%;
-  max-width: 440px;
+  max-width: 431px;
 }
 .details .inner-details .inner-details-info .seller-details {
   font-size: 26px;
@@ -153,7 +183,6 @@ body .header .header-img {
   position: relative;
 }
 .details .client-container .shooter-img .shooter-man {
-  height: 370px;
   position: absolute;
   bottom: -36px;
   left: 28px;
@@ -208,7 +237,7 @@ body .header .header-img {
   font-size: 38px;
   text-align: center;
   line-height: 46px;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham Black', sans-serif;
 }
 .main-title-container .para {
   font-size: 28px;
@@ -232,7 +261,7 @@ body .header .header-img {
   font-size: 46px;
   line-height: 50px;
   color: #FFFFFF;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham Black', sans-serif;
   width: 100%;
   max-width: 547px;
 }
@@ -285,7 +314,7 @@ body .header .header-img {
   font-size: 32px;
   font-weight: bold;
   line-height: 56px;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham Black', sans-serif;
 }
 .services-container .service-offers .services-lists {
   display: flex;
@@ -332,20 +361,22 @@ body .header .header-img {
   content: "“";
   font-size: 136px;
   color: #0099D8;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham Black', sans-serif;
   position: absolute;
   left: -91px;
   top: -47px;
   font-weight: bold;
+  font-style: normal;
 }
 .blog-main .blog-container .blog .blog-content::after {
   content: "”";
   font-size: 136px;
   color: #0099D8;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham Black', sans-serif;
   position: absolute;
   top: 147px;
   font-weight: bold;
+  font-style: normal;
 }
 .blog-main .blog-container .blog h5 {
   color: #484F57;
@@ -382,6 +413,7 @@ body .header .header-img {
   max-height: 81px;
   text-align: center;
   padding-top: 0px;
+  font-family: 'Gotham Black', sans-serif;
 }
 .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs {
   display: flex;
@@ -774,8 +806,10 @@ body .header .header-img {
   .details .client-container .shooter-img .shooter-man {
     position: absolute;
     bottom: 242px;
-    left: 61px;
+    left: 77px;
+    width: 100%;
     /* display: none; */
+    max-width: 600px;
   }
   .details .client-container .flex-container {
     height: 412px;
@@ -804,8 +838,8 @@ body .header .header-img {
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
-    letter-spacing: 1px;
     border: none;
+    letter-spacing: 0px;
   }
   .main-title-container {
     padding: 70px 60px 70px 60px;
@@ -1127,6 +1161,7 @@ body .header .header-img {
   }
   .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .blog-title {
     font-size: 28px;
+    max-width: 244px;
   }
   .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs {
     flex-direction: column;
