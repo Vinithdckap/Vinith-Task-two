@@ -1,0 +1,1247 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4n.ttf) format('truetype');
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open sans', sans-serif;
+}
+body button {
+  cursor: pointer;
+}
+body .inner-main-container {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+body .header {
+  height: 70px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+}
+body .header .menu-icon {
+  display: none;
+}
+body .header .header-img {
+  padding: 20px 0px 10px 14px;
+}
+.details .inner-details {
+  background-image: url(Images/First\ container.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 467px;
+}
+.details .inner-details .inner-details-info {
+  color: #FFFFFF;
+  padding: 48px 0px 133px 48px;
+}
+.details .inner-details .inner-details-info .tactical {
+  font-size: 70px;
+  font-weight: bolder;
+  line-height: 74px;
+  font-family: 'Gotham Black', sans-serif;
+  width: 100%;
+  max-width: 440px;
+}
+.details .inner-details .inner-details-info .seller-details {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+  width: 100%;
+  max-width: 694px;
+  margin-top: 20px;
+}
+.details .client-container {
+  position: relative;
+}
+.details .client-container .shooter-img .shooter-man {
+  height: 370px;
+  position: absolute;
+  bottom: -36px;
+  left: 28px;
+  width: 100%;
+  max-width: 640px;
+}
+.details .client-container .flex-container {
+  display: flex;
+  justify-content: end;
+  padding-right: 48px;
+  background: #F0F0F0;
+  text-align: center;
+  padding-bottom: 22px;
+}
+.details .client-container .flex-container .client-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-left: 49px;
+  padding-top: 30px;
+}
+.details .client-container .flex-container .client-details .info .brandS {
+  display: block;
+}
+.details .client-container .flex-container .client-details .info .brands-laptop {
+  display: none;
+}
+.details .client-container .btn {
+  display: flex;
+  justify-content: end;
+  padding-right: 120px;
+  padding-top: 31px;
+}
+.details .client-container .btn .bookBtn {
+  height: 66px;
+  border-radius: 36px;
+  background: #FECA39;
+  width: 100%;
+  max-width: 423px;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 34px;
+  letter-spacing: 1px;
+  border: none;
+  font-family: 'Open sans', sans-serif;
+}
+.main-title-container {
+  padding: 73px 83px 78px 83px;
+}
+.main-title-container .title-content {
+  font-size: 38px;
+  text-align: center;
+  line-height: 46px;
+  font-family: 'Gotham', sans-serif;
+}
+.main-title-container .para {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 36px;
+}
+.benefits-container .benefits-details {
+  background-image: url(Images/EY\ IMG.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.benefits-container .benefits-details .listings {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 40px;
+  padding-top: 47px;
+}
+.benefits-container .benefits-details .listings .benefy-title {
+  font-size: 46px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-family: 'Gotham', sans-serif;
+  width: 100%;
+  max-width: 547px;
+}
+.benefits-container .benefits-details .listings .ulList {
+  padding-right: 88px;
+}
+.benefits-container .benefits-details .listings li {
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+  font-weight: 600;
+  width: 100%;
+  max-width: 434px;
+  padding-top: 28px;
+}
+.feedback-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  padding-top: 54px;
+}
+.feedback-details .review {
+  width: 100%;
+  max-width: 549px;
+}
+.feedback-details .review .client-img {
+  width: 100%;
+  max-width: 549px;
+}
+.feedback-details .review .feedback-title {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 10px 0px 10px 0px;
+  font-family: 'Open sans', sans-serif;
+}
+.feedback-details .review .feedback-para {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.services-container {
+  padding: 123px 98px 142px 98px;
+}
+.services-container .service-title {
+  text-align: center;
+}
+.services-container .service-title .offers {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 56px;
+  font-family: 'Gotham', sans-serif;
+}
+.services-container .service-offers .services-lists {
+  display: flex;
+  justify-content: center;
+  column-gap: 143px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+}
+.services-container .service-offers .services-lists .liLists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 71px;
+}
+.services-container .service-offers .services-lists .service-details {
+  padding-top: 92px;
+}
+.services-container .service-offers .services-lists .service-details .service-icons {
+  display: flex;
+  gap: 18px;
+  text-align: center;
+  align-items: center;
+}
+.services-container .service-offers .services-lists .service-details .service-icons .offer-name {
+  font-size: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+.blog-main .blog-container {
+  background: #E9F5FC;
+  height: 392px;
+}
+.blog-main .blog-container .blog {
+  padding: 75px 76px 74px 174px;
+}
+.blog-main .blog-container .blog .blog-content {
+  font-size: 36px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: italic;
+  position: relative;
+}
+.blog-main .blog-container .blog .blog-content::before {
+  content: "“";
+  font-size: 136px;
+  color: #0099D8;
+  font-family: 'Gotham', sans-serif;
+  position: absolute;
+  left: -91px;
+  top: -47px;
+  font-weight: bold;
+}
+.blog-main .blog-container .blog .blog-content::after {
+  content: "”";
+  font-size: 136px;
+  color: #0099D8;
+  font-family: 'Gotham', sans-serif;
+  position: absolute;
+  top: 147px;
+  font-weight: bold;
+}
+.blog-main .blog-container .blog h5 {
+  color: #484F57;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 23px;
+}
+.blog-main .blog-post-container {
+  background-image: url(Images/blog.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+.blog-main .blog-post-container .inner-blog-container {
+  padding: 41px 0px 89px 48px;
+}
+.blog-main .blog-post-container .inner-blog-container .blog-heading {
+  display: flex;
+}
+.blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog {
+  display: flex;
+  align-items: center;
+  column-gap: 34px;
+}
+.blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .blog-title {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 40px;
+  width: 100%;
+  max-width: 286px;
+  height: auto;
+  max-height: 81px;
+  text-align: center;
+  padding-top: 0px;
+}
+.blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs {
+  display: flex;
+  gap: 35px;
+  text-align: center;
+}
+.blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs .cards .guns {
+  width: 100%;
+  max-width: 289px;
+}
+.blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs .cards h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+.blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs .cards a {
+  color: #FECA39;
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact-container {
+  padding-bottom: 99px;
+}
+.contact-container .contact-header .contact-title {
+  font-size: 46px;
+  font-weight: 800;
+  padding: 77px 0px 89px 232px;
+}
+.contact-container .contact-header .contact-title .free {
+  color: #1799D8;
+}
+.contact-container .contact-form .input-form form {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+.contact-container .contact-form .input-form form .all-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.contact-container .contact-form .input-form form .all-box .secondDiv .fa-solid,
+.contact-container .contact-form .input-form form .all-box .secondDiv .fas {
+  font-weight: 900;
+  position: absolute;
+  top: 155px;
+  right: 20px;
+  font-size: 24px;
+  border-left: 1px solid #707070;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.contact-container .contact-form .input-form form .all-box input#fname,
+.contact-container .contact-form .input-form form .all-box #Email,
+.contact-container .contact-form .input-form form .all-box #Phone,
+.contact-container .contact-form .input-form form .all-box #commerce,
+.contact-container .contact-form .input-form form .all-box #revenue,
+.contact-container .contact-form .input-form form .all-box #URL {
+  border-radius: 4px;
+  height: 50px;
+  width: 345px;
+  border: 1px solid #D5D5D5;
+  background: #F0F0F0;
+  font-family: 'Open sans', sans-serif;
+}
+.contact-container .contact-form .input-form form .all-box input#fname::placeholder,
+.contact-container .contact-form .input-form form .all-box #Email::placeholder,
+.contact-container .contact-form .input-form form .all-box #Phone::placeholder,
+.contact-container .contact-form .input-form form .all-box #commerce::placeholder,
+.contact-container .contact-form .input-form form .all-box #revenue::placeholder,
+.contact-container .contact-form .input-form form .all-box #URL::placeholder {
+  font-size: 17px;
+  font-style: italic;
+  padding-left: 20px;
+  color: #000000;
+  font-family: 'Open sans', sans-serif;
+}
+.contact-container .contact-form .input-form form .btn .submitBtn {
+  height: 50px;
+  width: 146px;
+  border-radius: 35px;
+  border: none;
+  background-color: #FECA39;
+  color: #000000;
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+  font-family: 'Open sans', sans-serif;
+}
+.footer-img .footer-desktop {
+  width: 100%;
+}
+.footer-img .footer-laptop {
+  display: none;
+}
+.footer-img .footer-tablet {
+  display: none;
+}
+.footer-img .footer-mobile {
+  display: none;
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  body {
+    font-family: 'Open sans', sans-serif;
+  }
+  body button {
+    cursor: pointer;
+  }
+  body .header {
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+  }
+  body .header .menu-icon {
+    display: block;
+    padding: 25px 10px 10px 30px;
+  }
+  body .header .header-img {
+    padding: 20px 0px 10px 14px;
+  }
+  .details .inner-details {
+    display: block;
+  }
+  .details .inner-details .inner-details-info {
+    color: #FFFFFF;
+    padding: 48px 0px 105px 25px;
+  }
+  .details .inner-details .inner-details-info .tactical {
+    font-size: 70px;
+    font-weight: bolder;
+    line-height: 74px;
+    font-family: 'Gotham', 'sans-serif';
+    max-width: 440px;
+  }
+  .details .inner-details .inner-details-info .seller-details {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 20px;
+  }
+  .details .client-container .shooter-img .shooter-man {
+    position: absolute;
+    bottom: -20px;
+    left: 4px;
+    max-width: 600px;
+    width: 100%;
+  }
+  .details .client-container .flex-container {
+    height: 200px;
+  }
+  .details .client-container .flex-container .client-details .info {
+    padding-right: 57px;
+  }
+  .details .client-container .flex-container .client-details .info .client-features {
+    font-size: 15px;
+    text-align: center;
+  }
+  .details .client-container .flex-container .client-details .info .brands {
+    display: none;
+  }
+  .details .client-container .flex-container .client-details .info .brands-laptop {
+    display: block;
+    padding-top: 20px;
+  }
+  .details .client-container .btn {
+    display: flex;
+    justify-content: end;
+    padding-right: 78px;
+    padding-top: 31px;
+  }
+  .details .client-container .btn .bookBtn {
+    height: 50px;
+    border-radius: 36px;
+    background: #FECA39;
+    width: 100%;
+    max-width: 311px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 34px;
+    letter-spacing: 1px;
+    border: none;
+    font-family: 'Open sans', sans-serif;
+  }
+  .main-title-container {
+    padding: 73px 83px 60px 83px;
+  }
+  .main-title-container .inner-title-details .title-content {
+    font-size: 28px;
+    text-align: center;
+    line-height: 46px;
+  }
+  .main-title-container .inner-title-details .para {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 23px;
+    height: 100%;
+  }
+  .benefits-container .benefits-details {
+    background-image: url(Images/EY\ IMG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+  .benefits-container .benefits-details .listings {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 0px;
+    padding-top: 29px;
+  }
+  .benefits-container .benefits-details .listings .benefy-title {
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+    max-width: 386px;
+    margin-right: 64px;
+  }
+  .benefits-container .benefits-details .listings .ulList {
+    padding-right: 0px;
+  }
+  .benefits-container .benefits-details .listings li {
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 100%;
+    max-width: 434px;
+    padding-top: 28px;
+    text-decoration: none;
+  }
+  .benefits-container .benefits-details .feedback-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    padding-top: 18px;
+  }
+  .benefits-container .benefits-details .feedback-details .review {
+    padding: 0px 0px 0px 0px;
+    max-width: 468px;
+  }
+  .benefits-container .benefits-details .feedback-details .review .client-img {
+    width: 100%;
+    max-width: 462px;
+  }
+  .benefits-container .benefits-details .feedback-details .review .feedback-title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Open sans', sans-serif;
+  }
+  .benefits-container .benefits-details .feedback-details .review .feedback-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .contact-container {
+    padding-bottom: 100px;
+  }
+  .contact-container .contact-header .contact-title {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 69px 127px 39px 155px;
+  }
+  .services-container {
+    padding: 96px 60px 100px 60px;
+  }
+  .services-container .service-offers .contact-menu .services-lists {
+    column-gap: 65px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .service-details {
+    padding-top: 79px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .service-details .service-icons .icons {
+    height: 100%;
+    max-width: 54px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .service-details .service-icons .offer-name {
+    font-size: 19px;
+  }
+  .blog-main .blog-container .blog {
+    padding: 56px 128px 93px 160px;
+  }
+  .blog-main .blog-container .blog .blog-content {
+    font-size: 32px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: italic;
+  }
+  .blog-main .blog-container .blog .blog-content::before {
+    content: "“";
+    font-size: 101px;
+    left: -73px;
+    top: -33px;
+    font-weight: bold;
+  }
+  .blog-main .blog-container .blog .blog-content::after {
+    font-size: 101px;
+    top: 164px;
+  }
+  .blog-main .blog-post-container .inner-blog-container {
+    padding: 0px 43px 50px 43px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog {
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .blog-title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    width: 100%;
+    max-width: 496px;
+    height: auto;
+    max-height: 81px;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs {
+    display: flex;
+    gap: 35px;
+    padding-top: 10px;
+  }
+  .footer-img .footer-desktop {
+    display: none;
+  }
+  .footer-img .footer-laptop {
+    display: block;
+    width: 100%;
+  }
+  .footer-img .footer-tablet {
+    display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .header-container .header {
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+  }
+  .header-container .header .menu-icon {
+    display: block;
+    padding: 25px 10px 10px 30px;
+  }
+  .details .inner-details {
+    background-image: url(Images/tablet-container.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .details .inner-details .inner-details-info {
+    color: #FFFFFF;
+    padding: 215px 50px 0px 50px;
+  }
+  .details .inner-details .inner-details-info .tactical {
+    font-size: 54px;
+    font-weight: bolder;
+    line-height: 58px;
+    font-family: 'Gotham', 'sans-serif';
+    width: 100%;
+    max-width: 645px;
+  }
+  .details .inner-details .inner-details-info .seller-details {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .details .client-container {
+    position: relative;
+  }
+  .details .client-container .shooter-img .shooter-man {
+    position: absolute;
+    bottom: 242px;
+    left: 61px;
+    /* display: none; */
+  }
+  .details .client-container .flex-container {
+    height: 412px;
+    align-items: center;
+  }
+  .details .client-container .flex-container .client-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 272px;
+    padding-right: 34px;
+  }
+  .details .client-container .btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-right: 0px;
+  }
+  .details .client-container .btn .bookBtn {
+    height: 66px;
+    border-radius: 36px;
+    background: #FECA39;
+    width: 100%;
+    max-width: 311px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 1px;
+    border: none;
+  }
+  .main-title-container {
+    padding: 70px 60px 70px 60px;
+  }
+  .main-title-container .inner-title-details .title-content {
+    font-size: 28px;
+    text-align: center;
+    line-height: 33px;
+  }
+  .main-title-container .inner-title-details .para {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 27px;
+  }
+  .benefits-container .benefits-details {
+    background-image: url(Images/EY\ Tablet.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+  }
+  .benefits-container .benefits-details .listings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 398px;
+  }
+  .benefits-container .benefits-details .listings .ulList {
+    padding-right: 0px;
+  }
+  .benefits-container .benefits-details .listings .benefy-title {
+    font-size: 36px;
+    line-height: 42px;
+    width: 100%;
+    max-width: 575px;
+  }
+  .benefits-container .benefits-details .listings li {
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 100%;
+    max-width: 550px;
+    padding-top: 20px;
+  }
+  .benefits-container .benefits-details .feedback-details .review {
+    max-width: 335px;
+  }
+  .benefits-container .benefits-details .feedback-details .review .client-img {
+    width: 100%;
+    max-width: 335px;
+  }
+  .benefits-container .benefits-details .feedback-details .review .feedback-title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+  }
+  .benefits-container .benefits-details .feedback-details .review .feedback-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .services-container {
+    padding: 70px 70px 80px 70px;
+  }
+  .services-container .inner-service-container .service-title .offers {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 40px;
+  }
+  .services-container .service-offers {
+    padding-top: 0px;
+  }
+  .services-container .service-offers .contact-menu .services-lists {
+    row-gap: 66px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .liLists {
+    column-gap: 15px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .service-details {
+    padding-top: 72px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .service-details .service-icons {
+    display: block;
+    display: flex;
+  }
+  .services-container .service-offers .contact-menu .services-lists .service-details .service-icons .icons {
+    width: 100%;
+    max-width: 40px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .service-details .service-icons .offer-name {
+    font-size: 16px;
+  }
+  .blog-main .blog-container {
+    background: #E9F5FC;
+    height: 100%;
+    max-height: 348px;
+  }
+  .blog-main .blog-container .blog {
+    padding: 52px 122px 40px 135px;
+  }
+  .blog-main .blog-container .blog .blog-content {
+    font-size: 26px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: italic;
+    line-height: 34px;
+  }
+  .blog-main .blog-container .blog .blog-content::before {
+    left: -58px;
+    font-size: 80px;
+    top: 0px;
+  }
+  .blog-main .blog-container .blog .blog-content::after {
+    top: 196px;
+    font-size: 80px;
+  }
+  .blog-main .blog-container .blog h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .blog-main .blog-post-container {
+    background-image: url(Images/Blog-container-more.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    max-height: 390px;
+  }
+  .blog-main .blog-post-container .inner-blog-container {
+    padding: 41px 0px 50px 0px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog {
+    flex-direction: column;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .blog-title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 34px;
+    width: 100%;
+    max-width: 496px;
+    height: auto;
+    max-height: 81px;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs {
+    padding-top: 32px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs .cards h3 {
+    padding-top: 20px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs .hide {
+    display: none;
+  }
+  .contact-container .contact-header .contact-title {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 70px 31px 32px 32px;
+    letter-spacing: -1px;
+  }
+  .footer-img .footer-desktop {
+    width: 100%;
+    display: none;
+  }
+  .footer-img .footer-tablet {
+    display: block;
+    width: 100%;
+  }
+  .footer-img .footer-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .details .inner-details {
+    height: 564px;
+  }
+  .details .inner-details .inner-details-info {
+    color: #FFFFFF;
+    padding: 190px 50px 0px 50px;
+  }
+  .details .inner-details .inner-details-info .tactical {
+    font-size: 44px;
+    line-height: 48px;
+  }
+  .details .client-container .shooter-img .shooter-man {
+    height: 198px;
+    bottom: 311px;
+    left: 25px;
+    width: 335px;
+  }
+  .details .client-container .flex-container {
+    height: 347px;
+    align-items: center;
+    padding-right: 28px;
+  }
+  .details .client-container .flex-container .client-details {
+    padding-top: 86px;
+    padding-right: 19px;
+  }
+  .details .client-container .flex-container .client-details .info {
+    padding-top: 30px;
+  }
+  .details .client-container .flex-container .client-details .info .client-features {
+    font-size: 14px;
+  }
+  .details .client-container .flex-container .client-details .info .brands {
+    display: none;
+  }
+  .details .client-container .flex-container .client-details .info .brands-laptop {
+    display: block;
+    padding-top: 15px;
+  }
+  .details .client-container .btn .bookBtn {
+    height: 50px;
+    letter-spacing: 0px;
+    width: 100%;
+    max-width: 311px;
+  }
+  .main-title-container {
+    padding: 60px 20px 70px 20px;
+  }
+  .main-title-container .inner-title-details .title-content {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .main-title-container .para {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .benefits-container .benefits-details {
+    background-image: url(Images/ey\ mobile.jpg);
+    background-position: center;
+    height: 100%;
+    max-height: 622px;
+    background-size: cover;
+  }
+  .benefits-container .benefits-details .listings {
+    padding-top: 196px;
+  }
+  .benefits-container .benefits-details .listings .benefy-title {
+    font-size: 30px;
+    line-height: 36px;
+    padding-left: 20px;
+  }
+  .benefits-container .benefits-details .listings li {
+    line-height: 30px;
+    width: 304px;
+  }
+  .benefits-container .benefits-details .feedback-details {
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  .services-container {
+    padding: 583px 0px 70px 10px;
+  }
+  .services-container .service-offers {
+    padding-top: 0px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .liLists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .liLists .service-details {
+    padding-top: 26px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .liLists .service-details .service-icons {
+    display: flex;
+  }
+  .services-container .service-offers .contact-menu .services-lists .liLists .service-details .offer-name {
+    font-size: 13px;
+  }
+  .blog-main {
+    margin-top: 22px;
+  }
+  .blog-main .blog-container {
+    background: #E9F5FC;
+    height: 100%;
+    max-height: 460px;
+  }
+  .blog-main .blog-container .blog {
+    padding: 0px;
+    padding-left: 72px;
+    padding-top: 58px;
+    padding-bottom: 20px;
+  }
+  .blog-main .blog-container .blog .blog-content {
+    font-size: 22px;
+    line-height: 28px;
+    width: 100%;
+    max-width: 255px;
+  }
+  .blog-main .blog-container .blog .blog-content::before {
+    font-size: 80px;
+    left: -56px;
+    top: 0;
+  }
+  .blog-main .blog-container .blog .blog-content::after {
+    position: absolute;
+    font-size: 80px;
+    top: 276px;
+  }
+  .blog-main .blog-container .blog h5 {
+    max-width: 182px;
+  }
+  .blog-main .blog-post-container {
+    background-image: url(Images/mobile-container.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 680px;
+    max-height: 680px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .blog-title {
+    font-size: 28px;
+  }
+  .blog-main .blog-post-container .inner-blog-container .blog-heading .featured-blog .total-blogs {
+    flex-direction: column;
+  }
+  .contact-container .inner-contact-container .contact-header .contact-title {
+    font-size: 28px;
+    font-weight: 800;
+    padding: 56px 45px 32px 51px;
+    letter-spacing: -1px;
+  }
+  .contact-container .contact-form .input-form form .all-box {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .footer-img .footer-tablet {
+    display: none;
+  }
+  .footer-img .footer-mobile {
+    display: block;
+    width: 100%;
+  }
+  .footer-img .footer-desktop {
+    display: none;
+  }
+  .footer-img .footer-laptop {
+    display: none;
+  }
+}
+@media screen and (max-width: 374px) {
+  .details .inner-details .inner-details-info .tactical {
+    font-size: 34px;
+    line-height: 48px;
+  }
+  .details .inner-details .inner-details-info .seller-details {
+    font-size: 16px;
+  }
+  .details .client-container .shooter-img .shooter-man {
+    height: 190px;
+    bottom: 309px;
+    left: 10px;
+    width: 300px;
+  }
+  .details .client-container .flex-container .client-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 90px;
+    padding-right: 0px;
+  }
+  .details .client-container .btn .bookBtn {
+    max-width: 278px;
+    font-size: 17px;
+  }
+  .benefits-container .benefits-details .listings .benefy-title {
+    font-size: 27px;
+    padding-left: 20px;
+  }
+  .benefits-container .benefits-details .listings .ulList {
+    padding-left: 40px;
+  }
+  .benefits-container .benefits-details .listings .ulList li {
+    font-size: 14px;
+    width: 270px;
+  }
+  .benefits-container .benefits-details .feedback-details .review .feedback-title {
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  .benefits-container .benefits-details .feedback-details .review .feedback-para {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .services-container {
+    padding: 583px 0px 38px 10px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .liLists .service-details .icons {
+    width: 100%;
+    max-width: 30px;
+  }
+  .services-container .service-offers .contact-menu .services-lists .liLists .service-details .offer-name {
+    font-size: 10px;
+  }
+  .contact-container .contact-form .input-form form .all-box input#fname,
+  .contact-container .contact-form .input-form form .all-box #Email,
+  .contact-container .contact-form .input-form form .all-box #Phone,
+  .contact-container .contact-form .input-form form .all-box #commerce,
+  .contact-container .contact-form .input-form form .all-box #revenue,
+  .contact-container .contact-form .input-form form .all-box #URL {
+    border-radius: 4px;
+    height: 50px;
+    width: 282px;
+    border: 1px solid #D5D5D5;
+    background: #F0F0F0;
+    font-family: 'Open sans', sans-serif;
+  }
+  .contact-container .inner-contact-container .contact-header .contact-title {
+    padding: 56px 0px 32px 23px;
+  }
+  .blog-main .blog-container .blog {
+    padding: 0px;
+    padding-left: 44px;
+    padding-top: 58px;
+    padding-bottom: 20px;
+  }
+  .blog-main .blog-container .blog .blog-content::before {
+    font-size: 70px;
+    left: -42px;
+    top: 0;
+  }
+  .blog-main .blog-container .blog .blog-content::after {
+    font-size: 70px;
+  }
+  .services-container .service-offers .contact-menu .services-lists {
+    column-gap: 9px;
+    row-gap: 34px;
+  }
+}
